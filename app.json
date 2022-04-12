@@ -1,9 +1,9 @@
 {
-    "name": "venommusic",
-    "logo": "https://telegra.ph/file/bba6f800202a4c6c08ff6.png",
+    "name": "sun music player",
+    "logo": "https://telegra.ph/file/1c27de87895034b11a98c.jpg",
     "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC",
+    "repository": "https://github.com/Sunmusicking/VENOMxOPxMUSIC",
     "stack": "container",
     "env": {
         "API_ID": {
