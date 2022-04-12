@@ -33,21 +33,20 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph//file/bcebfc264020162d0f37c.png",
+        photo=f"https://telegra.ph/file/6f745166ed2d12196f817.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ 𝙎𝙪𝙥𝙚𝙧𝙁𝙖𝙨𝙩 𝙑𝘾 𝙁𝙪𝙘𝙠𝙚𝙧 
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
-...
+😍✨ ʜᴇʟʟᴏ, ɪ ᴀᴍ 𝐒𝐔𝐍 𝐌𝐔𝐒𝐈𝐂 𝐏𝐋𝐀𝐘𝐄𝐑
+ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs✨🎀
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ repo ❱ ➕", url=f"https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC"),
-                        InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/v3n0m_0p"),
-                      InlineKeyboardButton("• Group", url=f"https://t.me/v3nom_support"),
+                        "❰⚡️𝐎ᴡɴᴇʀ⚡️❱", url=f"https://t.me/iMzaynKING"),
+                        InlineKeyboardButton("❰ 𝐒ᴜᴘᴘᴏʀᴛ ❱", url=f"https://t.me/TAMIL_CHATBOX"),
+                      InlineKeyboardButton("❰ 𝐂ʜᴀɴɴᴇʟ ❱, url=f"https://t.me/KING_BIOz"),
                   ],[
-                      InlineKeyboardButton("CREATER", url=f"https://t.me/venomXcrazy")
+                      InlineKeyboardButton("❰ 𝐌𝐲 𝐁𝐎𝐒𝐒 ❱", url=f"https://t.me/imzaynking")
                 ]
                 
            ]
@@ -58,13 +57,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "venom"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/55d8a6f1a9b87eaba142f.png",
+        photo=f"https://telegra.ph/file/27dd492dfe85ca5dec0d0.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/girls_boys_chatting10")
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/TAMIL_CHATBOX")
                 ]
             ]
         ),
@@ -74,13 +73,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/55d8a6f1a9b87eaba142f.png",
+        photo=f"https://telegra.ph/file/2041a5f90a458dbb962ca.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC")
+                        "👑 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 👑", url=f"https://t.me/imzaynking")
                 ]
             ]
         ),
