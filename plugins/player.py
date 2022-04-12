@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: VENOM  (@VENOMxCRAZY)",
+        f"Powered By: KING_BIOz  (@KING_BIOz)",
         (255, 255, 255),
         font=font,
     )
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**🔎processing. ...**")
+    lel = await message.reply("**🔎 𝐒𝐔𝐍 𝐌𝐔𝐒𝐈𝐂 processing. ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -129,24 +129,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💥 𝙰𝙳𝙼𝙸𝙽 𝚃𝙾 banadooo☹︎☹︎ ...**")
+                        "**💥 𝐀𝐃𝐌𝐈𝐍 𝐏𝐎𝐃𝐔 𝐅𝐈𝐑𝐒𝐓✨🙄 ...**")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 ..**")
+                        message.chat.id, "**𝐒𝐔𝐍 𝐌𝐔𝐒𝐈𝐂 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 ..**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🎸please manully add assistant here 🥀** ")
+                        f"**🎸𝐒𝐔𝐍 𝐌𝐔𝐒𝐈𝐂 𝐀𝐒𝐒𝐈𝐒𝐓𝐀𝐍𝐓 please manully add assistant here 👉[ @SunMusicAssiT ]✨🥰** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🎸please manully add assistant here 🥀** ...*")
+            f"**🎸𝐒𝐔𝐍 𝐌𝐔𝐒𝐈𝐂 please manully add assistant here 👉[ @SunMusicAssiT ]✨🥰** ...*")
         return
     
     audio = (
@@ -159,7 +159,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**Ƥɭɑy 🔊 Ɱʋsɩƈ  Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**✅✨𝐒𝐔𝐍 𝐌𝐔𝐒𝐈𝐂 Ƥɭɑy Ɱʋsɩƈ  Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
             )
 
         file_name = get_file_name(audio)
@@ -173,8 +173,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 REPO💞",
-                            url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC")
+                            text="❰💫𝐒ᴏᴜʀᴄᴇ💕❱",
+                            url=f"https://t.me/KING_BIOz")
 
                 ]
             ]
@@ -212,8 +212,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="REPO",
-                            url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC")
+                            text="❰💫𝐒ᴏᴜʀᴄᴇ💕❱",
+                            url=f"https://t.me/KING_BIOz")
 
                 ]
             ]
@@ -221,15 +221,15 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/bba6f800202a4c6c08ff6.png"
+            thumb_name = "https://telegra.ph/file/40669a772e9cc71b77edf.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
                         InlineKeyboardButton(
-                            text="MUSIC-REPO",
-                            url=f"https://t.me/V3NOM_SUPPORT")
+                            text="❰💫𝐒ᴏᴜʀᴄᴇ💕❱",
+                            url=f"https://t.me/KING_BIOz")
 
                 ]
             ]
@@ -237,7 +237,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**✅✨𝐒𝐔𝐍 𝐌𝐔𝐒𝐈𝐂 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -246,9 +246,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**𝐁𝐀𝐁𝐘 𝐆𝐀𝐍𝐄 𝐊𝐀 𝐍𝐀𝐌𝐄 𝐁𝐇𝐈 𝐋𝐈𝐊𝐇𝐍𝐀 𝐇𝐎𝐓𝐀 𝐇 𝐏𝐋𝐀𝐘 𝐊𝐑𝐍𝐄 𝐊𝐄 𝐋𝐈𝐘𝐄ᰔ...**"
+                "**😱𝙊𝙃𝙒 𝙊𝙊 𝙉𝘼𝙉𝘼. 𝘼𝘿𝙃𝙐 𝙎𝘼𝙍𝙄 𝙎𝙊𝙉𝙂 𝙉𝘼𝙈𝙀 𝙔𝘼𝘼𝙍𝙐 𝙐𝙉 𝙏𝙃𝘼𝙏𝙃𝘼 𝙑𝘼𝙉𝘿𝙃𝙐 𝙋𝙊𝘿𝙐𝙑𝘼𝙍𝙊𝙊✨😂...**"
             )
-        await lel.edit("**🔄 Connecting to vc...**")
+        await lel.edit("**🥂✨𝙂𝙀𝙏𝙃𝘼 Connecting to vc 𝙀𝙉𝙄 𝙈𝘼𝙅𝘼 𝘿𝙃𝘼𝙉𝙉✨💃...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -282,8 +282,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💞𝐒𝐔𝐌𝐏𝐎𝐑𝐓",
-                            url=f"https://t.me/v3nom_support")
+                            text="❰💙𝐂ʜᴀɴɴᴇʟ❤️❱",
+                            url=f"https://t.me/KING_BIOz")
 
                 ]
             ]
@@ -291,7 +291,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**✅✨𝐒𝐔𝐍 𝐌𝐔𝐒𝐈𝐂 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -305,7 +305,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 Song Qued» `{}` 🌷 ...**".format(position),
+            caption="**🥰✨𝐖𝐀𝐈𝐓 𝐏𝐀𝐍𝐍𝐔 𝐌𝐀𝐂𝐇𝐈 Song Qued» `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -322,7 +322,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 Playing**".format(),
+            caption="**💥🎧𝐋𝐚𝐥𝐚𝐥𝐚 𝐞𝐧𝐧𝐚 𝐩𝐚𝐤𝐫𝐚 𝐧𝐨𝐰 𝐦𝐢 Playing 💃**".format(),
            )
 
     os.remove("final.png")
@@ -335,8 +335,8 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
-                             caption="**💥 𝙋𝘼𝙐𝙎𝙀...**"
+                             photo="https://telegra.ph/file/48943ea9491b01179026b.jpg", 
+                             caption="**𝙀𝙉𝙉𝘼 𝙏𝙃𝘼𝙇𝘼 𝙋𝘼𝙐𝙎𝙀 𝙋𝘼𝙉𝙏𝘼✨🙄...**"
     )
 
 
@@ -346,8 +346,8 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
-                             caption="**💥 𝑺𝑻𝑨𝑹𝑻𝑬𝑫 𝑷𝑳𝑨𝒀𝑰𝑵𝑮...**"
+                             photo="https://telegra.ph/file/b6aac9125e9d40a791409.jpg", 
+                             caption="**🤩✨𝙑𝙀𝙍𝘼 𝙈𝘼𝘼𝙍𝙄 𝙉𝙊𝙒 𝙎𝙊𝙉𝙂 𝑷𝑳𝑨𝒀𝑰𝑵𝑮✨💃...**"
     )
 
 
@@ -362,7 +362,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("*ṔÉHĹÉ ǴÁŃÁ ĆHÁĹŰ ḰŔ ...**")
+        await message.reply_text("*𝙉𝙀𝙓𝙏 𝙆𝙐𝘿𝙐𝙏𝙃𝘼 𝙋𝙊𝘿𝙃𝘼𝘿𝙃𝙐 𝙎𝙊𝙉𝙂 𝙋𝙇𝘼𝙔 𝙋𝘼𝙉𝙄𝙏𝙐 𝙉𝙀𝙓𝙏 𝙆𝙐𝘿𝙐✨🙄 ...**")
     else:
         queues.task_done(chat_id)
         
@@ -380,8 +380,8 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
-                             caption=f'* 𝐒𝐊𝐈𝐏𝐄𝐃...**'
+                             photo="https://telegra.ph/file/f44b37306e9d2e9c2d5cb.jpg", 
+                             caption=f'*🎧✨𝐒𝐎𝐍𝐆 𝐒𝐊𝐈𝐏𝐄𝐃✅...**'
    ) 
 
 
@@ -396,8 +396,8 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
-                             caption="**💥 Sʈøƥƥɘɗ 🌷 ...**"
+                             photo="https://telegra.ph/file/2f580447690c54eeeda6d.jpg", 
+                             caption="** 🚫✨𝙈𝙐𝙎𝙄𝘾 𝙀𝙉𝘿 𝙝𝙪𝙝 𝙤𝙠𝙞 𝙉𝙀𝙓𝙏 𝙏𝙄𝙈𝙀 𝙋𝘼𝙆𝘼𝙇𝘼𝙈✨🥰 ...**"
     )
 
 
@@ -414,6 +414,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png",
-                              caption="**💥  Ʀɘɭøɑɗɘɗ 🌷 ...**"
+                              photo="https://telegra.ph/file/6e7a7d3bc1a848804bdfa.jpg",
+                              caption="**✅✨ 𝙏𝙄𝙈𝙀 𝙏𝙊 Ʀɘɭøɑɗɘɗ 🥰 ...**"
     )
