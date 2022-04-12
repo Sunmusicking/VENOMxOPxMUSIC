@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: KING_BIOz  (@KING_BIOz)",
+        f"Powered By: KING_BIOz  (@TAMIL_CHATBOX)",
         (255, 255, 255),
         font=font,
     )
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**🔎 𝐒𝐔𝐍 𝐌𝐔𝐒𝐈𝐂 processing. ...**")
+    lel = await message.reply("**🔎 𝐒𝐔𝐍 𝐌𝐔𝐒𝐈𝐂 processing✨😍. ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -248,7 +248,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**😱𝙊𝙃𝙒 𝙊𝙊 𝙉𝘼𝙉𝘼. 𝘼𝘿𝙃𝙐 𝙎𝘼𝙍𝙄 𝙎𝙊𝙉𝙂 𝙉𝘼𝙈𝙀 𝙔𝘼𝘼𝙍𝙐 𝙐𝙉 𝙏𝙃𝘼𝙏𝙃𝘼 𝙑𝘼𝙉𝘿𝙃𝙐 𝙋𝙊𝘿𝙐𝙑𝘼𝙍𝙊𝙊✨😂...**"
             )
-        await lel.edit("**🥂✨𝙂𝙀𝙏𝙃𝘼 Connecting to vc 𝙀𝙉𝙄 𝙈𝘼𝙅𝘼 𝘿𝙃𝘼𝙉𝙉✨💃...**")
+        await lel.edit("**😍✨𝙎𝙐𝙈𝙈𝘼 𝙂𝙀𝙏𝙃𝘼 Connecting to vc 𝙀𝙉𝙄 𝙈𝘼𝙅𝘼 𝘿𝙃𝘼𝙉 𝘿𝙊𝙄 ✨💃...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
