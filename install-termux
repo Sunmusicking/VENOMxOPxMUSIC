@@ -20,8 +20,8 @@ else
 
     apt install git -y
 
-    git clone https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC
-
+    git clone 
+https://github.com/Sunmusicking/VENOMxOPxMUSIC
     cd VENOMxOPxMUSIC
 
 fi
